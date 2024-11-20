@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 4479247 */
+    src: url('//at.alicdn.com/t/c/font_4479247_us4p6iiizgj.woff2?t=1711214008358') format('woff2'),
+         url('//at.alicdn.com/t/c/font_4479247_us4p6iiizgj.woff?t=1711214008358') format('woff'),
+         url('//at.alicdn.com/t/c/font_4479247_us4p6iiizgj.ttf?t=1711214008358') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-sousuo:before {
+    content: "\e603";
+  }
+  
+  .icon-douban:before {
+    content: "\e703";
+  }
+  

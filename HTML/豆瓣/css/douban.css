@@ -1,0 +1,61 @@
+@import "//at.alicdn.com/t/c/font_4479247_us4p6iiizgj.css";
+
+/*通用代码*/
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*TITLE*/
+.title{
+    overflow: hidden;
+    background-color: #EDF4EC;
+}
+
+.title a{
+    width: 102px;
+    height: 20px;
+    margin: 7px 13px;
+    display: block;
+    background: url("../img/douban.png") no-repeat;
+    background-size: contain;
+}
+
+.title a span{
+    display: none;
+}
+
+/*页头*/
+.header{
+    height: 90px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.header .logo a{
+    width: 95px;
+    height: 0;
+    padding-top: 25px;
+    overflow: hidden;
+    display: block;
+    background: url("../img/sitename.png") no-repeat;
+    background-size: contain;
+}

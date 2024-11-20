@@ -1,0 +1,117 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main{
+    line-height: 1.5;
+}
+
+.main .nav{
+    height: 60px;
+    background-color: #47464a;
+    color: #999;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main .nav a{
+    margin: 0 38px;
+}
+
+.main .nav a:hover{
+    color: #fff;
+}
+
+.main .nav a.select{
+    color: #ef4238;
+}
+
+.main .container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.main .container .choose{
+    border: 1px solid #e5e5e5;
+    margin: 40px 0;
+    padding: 0 30px;
+}
+
+.main .container .choose .item{
+    margin: 1em 0;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.main .container .choose .no-line{
+    border:none;
+}
+
+.main .container .choose .item .left{
+    float: left;
+    width: 60px;
+    text-align: right;
+    color: #999;
+}
+
+.main .container .choose .item .right{
+    float: left;
+    width: 900px;
+}
+
+.main .container .choose .item .right li{
+    float: left;
+    margin: 0 9px;
+    padding: 0 6px;
+}
+
+.main .container .choose .item .right li:hover{
+    color: #ef4238;
+}
+
+.main .container .choose .item .right li.select{
+    background-color: #ef4238;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.main .container .movies .item{
+    float: left;
+    width:160px;
+    margin-right: 29px;
+    margin-right: 10px 32px 10px 0;
+}
+
+.main .container .movies .item:nth-child(6n){
+    margin-right: 0;
+}
+
+.main .container .movies .item .poster img{
+    width: 160px;
+    height: 220px;
+}
+
+.main .container .movies .item .name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.main .container .movies .item .score{
+    color: #ffb400;  
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic;
+}
+
+.main .container .movies .item .score::first-letter{
+    font-size: 1.5em;
+}

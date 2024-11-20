@@ -1,0 +1,20 @@
+.page{
+    margin: 2em 0;
+    text-align: center;
+}
+
+.page a{
+    border: 1px solid #d8d8d8;
+    padding: 5px 10px;
+    margin: 0 3px;
+}
+
+.page a:hover{
+    border-color: #ef4238;
+}
+
+.page a.select{
+    background-color: #ef4238;
+    color: #fff;
+    border: none;
+}

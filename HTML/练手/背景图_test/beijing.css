@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background: url(https://ol.3dmgame.com/uploads/images/news/20200910/1599722637_505079.jpg) no-repeat center top;
+}
+
+.header{
+    width: 1198px;
+    height: 73px;
+    line-height: 73px;
+    color: #f8b770;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 45px;
+    background: url(https://img.tukuppt.com/bg_grid/00/17/11/EkeQXWqO8S.jpg!/fh/350) no-repeat 0 0/100% 100%;
+    border: 1px solid #3f2a22;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+
+.header nav a{
+    float: left;
+    width: 161px;
+    height: 73px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #3f2a22;
+    border-top: none;
+    border-bottom: none;
+}
+
+.header nav a:nth-child(3){
+    margin-right: 232px;
+}
+
+.header .logo{
+    position: absolute;
+    width: 238px;
+    height: 118px;
+    background: url(https://ts1.cn.mm.bing.net/th/id/R-C.80ae023018d638d0f08441ae9c8a9771?rik=dQp60E4vP%2b64oA&riu=http%3a%2f%2fimg.sccnn.com%2fbimg%2f338%2f71832.jpg&ehk=2EHxOr4TM2lW6CvNo5%2buFooWWoCXTAF3%2bAwU%2fh7eSGI%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header .logo h1{
+    display: none;
+}
